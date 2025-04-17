@@ -82,3 +82,20 @@
         
         obj //{prop-1:1,...}
         ```
+        
+- 메서드 축약 표현
+    - ES6부터는 메서드를 정의할 때 function 키워드를 생략한 축약 표현을 사용할 수 있다.
+    
+    ```jsx
+    const obj = {
+    	name : 'Lee',
+    	//일반 함수 표현
+    	sayHi : function(){
+    		console.log('Hi! '+this.name);
+    	}
+    	//메서드 축약 표현
+    	sayHi() {
+    		console.log('Hi! '+this.name);
+    	}
+    };
+    ```
