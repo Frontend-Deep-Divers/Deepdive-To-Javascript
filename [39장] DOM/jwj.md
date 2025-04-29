@@ -935,7 +935,7 @@ $div.style["background-color"] = "yellow";
 
 두 번째 인수로 `:after`, `:before` 같은 의사 요소를 지정하는 문자열을 전달할 수 있다. 일반 요소의 경우 두 번째 인수는 생략한다.
 
-### 39.9 DOM 표준
+## 39.9 DOM 표준
 
 HTML과 DOM 표준은 W3C과 WHATWG(Web Hypertext Application Technology Working Group)이라는 두 단체가 공통된 표준을 만들어 왔다.
 
